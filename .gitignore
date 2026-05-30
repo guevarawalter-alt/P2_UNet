@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Checkpoints (>100MB — no caben en GitHub)
+checkpoints/*.pth
+checkpoints/*.pt
+
+# Entornos virtuales
+venv/
+env/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
