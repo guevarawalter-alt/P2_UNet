@@ -40,14 +40,14 @@ IMG_W = 512
 # ── Hiperparámetros de entrenamiento ──────────────────────────────────────
 SEED            = 42
 BATCH_SIZE      = 2
-NUM_EPOCHS      = 6
+NUM_EPOCHS      = 60
 LR              = 1e-3
 WEIGHT_DECAY    = 1e-4
 DROPOUT_P       = 0.2
 EARLY_STOP_PAT  = 15   # épocas sin mejora antes de parar
 SCHED_PATIENCE  = 7    # épocas sin mejora antes de reducir lr
 SCHED_FACTOR    = 0.5  # factor de reducción del lr
-ABLATION_EPOCHS = 2   # épocas por configuración de ablación
+ABLATION_EPOCHS = 20   # épocas por configuración de ablación
 
 # ── Normalización ImageNet ────────────────────────────────────────────────
 import numpy as np
